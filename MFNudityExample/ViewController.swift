@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func resultAction(_ sender: Any) {
-        //Test
+        //Test 
         MFNudity.shared.checkImageNudity(image: resultImage.image!) { (error, confidence) in
             
             if error != nil
