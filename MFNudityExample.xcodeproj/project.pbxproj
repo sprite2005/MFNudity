@@ -12,7 +12,23 @@
 		6BA8180C1FB42C5D00652E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BA8180A1FB42C5D00652E16 /* Main.storyboard */; };
 		6BA8180E1FB42C5D00652E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BA8180D1FB42C5D00652E16 /* Assets.xcassets */; };
 		6BA818111FB42C5D00652E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BA8180F1FB42C5D00652E16 /* LaunchScreen.storyboard */; };
+		6BA8182D1FB4384500652E16 /* MFNudity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA8182C1FB4383D00652E16 /* MFNudity.framework */; };
+		6BA8182E1FB4384500652E16 /* MFNudity.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA8182C1FB4383D00652E16 /* MFNudity.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6BA818211FB430FC00652E16 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6BA8182E1FB4384500652E16 /* MFNudity.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6BA818031FB42C5D00652E16 /* MFNudityExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFNudityExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +38,7 @@
 		6BA8180D1FB42C5D00652E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BA818101FB42C5D00652E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BA818121FB42C5D00652E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BA8182C1FB4383D00652E16 /* MFNudity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MFNudity.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BA8182D1FB4384500652E16 /* MFNudity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +77,26 @@
 				6BA8180A1FB42C5D00652E16 /* Main.storyboard */,
 				6BA8180D1FB42C5D00652E16 /* Assets.xcassets */,
 				6BA8180F1FB42C5D00652E16 /* LaunchScreen.storyboard */,
+				6BA818251FB433A500652E16 /* Frameworks */,
 				6BA818121FB42C5D00652E16 /* Info.plist */,
+				6BA8181C1FB430C200652E16 /* Frameworks */,
 			);
 			path = MFNudityExample;
+			sourceTree = "<group>";
+		};
+		6BA8181C1FB430C200652E16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BA818251FB433A500652E16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BA8182C1FB4383D00652E16 /* MFNudity.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +109,7 @@
 				6BA817FF1FB42C5D00652E16 /* Sources */,
 				6BA818001FB42C5D00652E16 /* Frameworks */,
 				6BA818011FB42C5D00652E16 /* Resources */,
+				6BA818211FB430FC00652E16 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -275,6 +311,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MFNudityExample/Frameworks",
+				);
 				INFOPLIST_FILE = MFNudityExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobilefirst.MFNudityExample;
@@ -289,6 +329,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MFNudityExample/Frameworks",
+				);
 				INFOPLIST_FILE = MFNudityExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobilefirst.MFNudityExample;
