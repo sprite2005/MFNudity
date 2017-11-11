@@ -9,10 +9,12 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/MobileFirstInc/MFNudity.git', :tag => '1.0'}
 
     s.homepage = 'https://www.mobilefirst.in'
-    s.platform     = :ios, '11.0'
+
+    s.ios.deployment_target = '11.0'
     s.requires_arc = true
 
-    s.source_files = 'MFNudity/*.{swift,h,mlmodel}'
-    s.frameworks = 'UIKit', 'Foundation'
-    s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
+    s.source_files = 'MFNudity/**/*.{swift,mlmodel}'
+
+    s.frameworks = 'UIKit', 'Foundation','Vision','CoreML'
+    s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
 end

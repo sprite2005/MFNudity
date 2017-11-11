@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B1C1CAD1FB462E4005A2133 /* MFNudity.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B1C1CAB1FB462E4005A2133 /* MFNudity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B1C1CB61FB462FD005A2133 /* MFNudity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1C1CB51FB462FD005A2133 /* MFNudity.swift */; };
-		6B1C1CB81FB4630B005A2133 /* MFNudityImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1C1CB71FB4630B005A2133 /* MFNudityImage.swift */; };
-		6B1C1CBA1FB46346005A2133 /* Nudity.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6B1C1CB91FB46335005A2133 /* Nudity.mlmodel */; };
-		6B1C1CBB1FB4636C005A2133 /* MFNudity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1C1CA91FB462E4005A2133 /* MFNudity.framework */; };
-		6B1C1CBC1FB4636C005A2133 /* MFNudity.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1C1CA91FB462E4005A2133 /* MFNudity.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6B60DBCA1FB706ED00A2F133 /* MFNudity.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B60DBC81FB706ED00A2F133 /* MFNudity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B60DBCD1FB706ED00A2F133 /* MFNudity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B60DBC61FB706ED00A2F133 /* MFNudity.framework */; };
+		6B60DBCE1FB706ED00A2F133 /* MFNudity.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B60DBC61FB706ED00A2F133 /* MFNudity.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6B60DBD51FB706FA00A2F133 /* MFNudity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B60DBD21FB706F800A2F133 /* MFNudity.swift */; };
+		6B60DBD61FB706FA00A2F133 /* MFNudityImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B60DBD31FB706F800A2F133 /* MFNudityImage.swift */; };
+		6B60DBD71FB7070200A2F133 /* Nudity.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6B60DBD41FB706FA00A2F133 /* Nudity.mlmodel */; };
 		6BA818071FB42C5D00652E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA818061FB42C5D00652E16 /* AppDelegate.swift */; };
 		6BA818091FB42C5D00652E16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA818081FB42C5D00652E16 /* ViewController.swift */; };
 		6BA8180C1FB42C5D00652E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BA8180A1FB42C5D00652E16 /* Main.storyboard */; };
@@ -21,23 +21,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6B1C1CBD1FB4636C005A2133 /* PBXContainerItemProxy */ = {
+		6B60DBCB1FB706ED00A2F133 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6BA817FB1FB42C5D00652E16 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6B1C1CA81FB462E4005A2133;
+			remoteGlobalIDString = 6B60DBC51FB706ED00A2F133;
 			remoteInfo = MFNudity;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6B1C1CBF1FB4636C005A2133 /* Embed Frameworks */ = {
+		6B1553611FB47857002E3CAF /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6B1C1CBC1FB4636C005A2133 /* MFNudity.framework in Embed Frameworks */,
+				6B60DBCE1FB706ED00A2F133 /* MFNudity.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,12 +45,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6B1C1CA91FB462E4005A2133 /* MFNudity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MFNudity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B1C1CAB1FB462E4005A2133 /* MFNudity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFNudity.h; sourceTree = "<group>"; };
-		6B1C1CAC1FB462E4005A2133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B1C1CB51FB462FD005A2133 /* MFNudity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFNudity.swift; sourceTree = "<group>"; };
-		6B1C1CB71FB4630B005A2133 /* MFNudityImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFNudityImage.swift; sourceTree = "<group>"; };
-		6B1C1CB91FB46335005A2133 /* Nudity.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Nudity.mlmodel; sourceTree = "<group>"; };
+		6B60DBC61FB706ED00A2F133 /* MFNudity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MFNudity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B60DBC81FB706ED00A2F133 /* MFNudity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFNudity.h; sourceTree = "<group>"; };
+		6B60DBC91FB706ED00A2F133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B60DBD21FB706F800A2F133 /* MFNudity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFNudity.swift; sourceTree = "<group>"; };
+		6B60DBD31FB706F800A2F133 /* MFNudityImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFNudityImage.swift; sourceTree = "<group>"; };
+		6B60DBD41FB706FA00A2F133 /* Nudity.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Nudity.mlmodel; sourceTree = "<group>"; };
 		6BA818031FB42C5D00652E16 /* MFNudityExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFNudityExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BA818061FB42C5D00652E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BA818081FB42C5D00652E16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6B1C1CA51FB462E4005A2133 /* Frameworks */ = {
+		6B60DBC21FB706ED00A2F133 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,21 +72,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B1C1CBB1FB4636C005A2133 /* MFNudity.framework in Frameworks */,
+				6B60DBCD1FB706ED00A2F133 /* MFNudity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6B1C1CAA1FB462E4005A2133 /* MFNudity */ = {
+		6B60DBC71FB706ED00A2F133 /* MFNudity */ = {
 			isa = PBXGroup;
 			children = (
-				6B1C1CAB1FB462E4005A2133 /* MFNudity.h */,
-				6B1C1CAC1FB462E4005A2133 /* Info.plist */,
-				6B1C1CB91FB46335005A2133 /* Nudity.mlmodel */,
-				6B1C1CB51FB462FD005A2133 /* MFNudity.swift */,
-				6B1C1CB71FB4630B005A2133 /* MFNudityImage.swift */,
+				6B60DBD21FB706F800A2F133 /* MFNudity.swift */,
+				6B60DBD31FB706F800A2F133 /* MFNudityImage.swift */,
+				6B60DBD41FB706FA00A2F133 /* Nudity.mlmodel */,
+				6B60DBC81FB706ED00A2F133 /* MFNudity.h */,
+				6B60DBC91FB706ED00A2F133 /* Info.plist */,
 			);
 			path = MFNudity;
 			sourceTree = "<group>";
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				6BA818051FB42C5D00652E16 /* MFNudityExample */,
-				6B1C1CAA1FB462E4005A2133 /* MFNudity */,
+				6B60DBC71FB706ED00A2F133 /* MFNudity */,
 				6BA818041FB42C5D00652E16 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				6BA818031FB42C5D00652E16 /* MFNudityExample.app */,
-				6B1C1CA91FB462E4005A2133 /* MFNudity.framework */,
+				6B60DBC61FB706ED00A2F133 /* MFNudity.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,49 +117,33 @@
 				6BA8180A1FB42C5D00652E16 /* Main.storyboard */,
 				6BA8180D1FB42C5D00652E16 /* Assets.xcassets */,
 				6BA8180F1FB42C5D00652E16 /* LaunchScreen.storyboard */,
-				6BA818251FB433A500652E16 /* Frameworks */,
 				6BA818121FB42C5D00652E16 /* Info.plist */,
-				6BA8181C1FB430C200652E16 /* Frameworks */,
 			);
 			path = MFNudityExample;
-			sourceTree = "<group>";
-		};
-		6BA8181C1FB430C200652E16 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Frameworks;
-			sourceTree = "<group>";
-		};
-		6BA818251FB433A500652E16 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6B1C1CA61FB462E4005A2133 /* Headers */ = {
+		6B60DBC31FB706ED00A2F133 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B1C1CAD1FB462E4005A2133 /* MFNudity.h in Headers */,
+				6B60DBCA1FB706ED00A2F133 /* MFNudity.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6B1C1CA81FB462E4005A2133 /* MFNudity */ = {
+		6B60DBC51FB706ED00A2F133 /* MFNudity */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B1C1CB21FB462E4005A2133 /* Build configuration list for PBXNativeTarget "MFNudity" */;
+			buildConfigurationList = 6B60DBCF1FB706ED00A2F133 /* Build configuration list for PBXNativeTarget "MFNudity" */;
 			buildPhases = (
-				6B1C1CA41FB462E4005A2133 /* Sources */,
-				6B1C1CA51FB462E4005A2133 /* Frameworks */,
-				6B1C1CA61FB462E4005A2133 /* Headers */,
-				6B1C1CA71FB462E4005A2133 /* Resources */,
+				6B60DBC11FB706ED00A2F133 /* Sources */,
+				6B60DBC21FB706ED00A2F133 /* Frameworks */,
+				6B60DBC31FB706ED00A2F133 /* Headers */,
+				6B60DBC41FB706ED00A2F133 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -167,7 +151,7 @@
 			);
 			name = MFNudity;
 			productName = MFNudity;
-			productReference = 6B1C1CA91FB462E4005A2133 /* MFNudity.framework */;
+			productReference = 6B60DBC61FB706ED00A2F133 /* MFNudity.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6BA818021FB42C5D00652E16 /* MFNudityExample */ = {
@@ -177,12 +161,12 @@
 				6BA817FF1FB42C5D00652E16 /* Sources */,
 				6BA818001FB42C5D00652E16 /* Frameworks */,
 				6BA818011FB42C5D00652E16 /* Resources */,
-				6B1C1CBF1FB4636C005A2133 /* Embed Frameworks */,
+				6B1553611FB47857002E3CAF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6B1C1CBE1FB4636C005A2133 /* PBXTargetDependency */,
+				6B60DBCC1FB706ED00A2F133 /* PBXTargetDependency */,
 			);
 			name = MFNudityExample;
 			productName = MFNudityExample;
@@ -199,7 +183,7 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = MobileFirst;
 				TargetAttributes = {
-					6B1C1CA81FB462E4005A2133 = {
+					6B60DBC51FB706ED00A2F133 = {
 						CreatedOnToolsVersion = 9.0;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
@@ -224,13 +208,13 @@
 			projectRoot = "";
 			targets = (
 				6BA818021FB42C5D00652E16 /* MFNudityExample */,
-				6B1C1CA81FB462E4005A2133 /* MFNudity */,
+				6B60DBC51FB706ED00A2F133 /* MFNudity */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6B1C1CA71FB462E4005A2133 /* Resources */ = {
+		6B60DBC41FB706ED00A2F133 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -250,13 +234,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6B1C1CA41FB462E4005A2133 /* Sources */ = {
+		6B60DBC11FB706ED00A2F133 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B1C1CB61FB462FD005A2133 /* MFNudity.swift in Sources */,
-				6B1C1CBA1FB46346005A2133 /* Nudity.mlmodel in Sources */,
-				6B1C1CB81FB4630B005A2133 /* MFNudityImage.swift in Sources */,
+				6B60DBD51FB706FA00A2F133 /* MFNudity.swift in Sources */,
+				6B60DBD71FB7070200A2F133 /* Nudity.mlmodel in Sources */,
+				6B60DBD61FB706FA00A2F133 /* MFNudityImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,10 +256,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6B1C1CBE1FB4636C005A2133 /* PBXTargetDependency */ = {
+		6B60DBCC1FB706ED00A2F133 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6B1C1CA81FB462E4005A2133 /* MFNudity */;
-			targetProxy = 6B1C1CBD1FB4636C005A2133 /* PBXContainerItemProxy */;
+			target = 6B60DBC51FB706ED00A2F133 /* MFNudity */;
+			targetProxy = 6B60DBCB1FB706ED00A2F133 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -299,7 +283,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6B1C1CB31FB462E4005A2133 /* Debug */ = {
+		6B60DBD01FB706ED00A2F133 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -307,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MB3U6KTHY8;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -324,7 +309,7 @@
 			};
 			name = Debug;
 		};
-		6B1C1CB41FB462E4005A2133 /* Release */ = {
+		6B60DBD11FB706ED00A2F133 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -332,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MB3U6KTHY8;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -460,15 +446,19 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MB3U6KTHY8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MFNudityExample/Frameworks",
+					"$(PROJECT_DIR)/Framework",
 				);
 				INFOPLIST_FILE = MFNudityExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobilefirst.MFNudityExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -479,15 +469,19 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MB3U6KTHY8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MFNudityExample/Frameworks",
+					"$(PROJECT_DIR)/Framework",
 				);
 				INFOPLIST_FILE = MFNudityExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobilefirst.MFNudityExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -496,11 +490,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6B1C1CB21FB462E4005A2133 /* Build configuration list for PBXNativeTarget "MFNudity" */ = {
+		6B60DBCF1FB706ED00A2F133 /* Build configuration list for PBXNativeTarget "MFNudity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B1C1CB31FB462E4005A2133 /* Debug */,
-				6B1C1CB41FB462E4005A2133 /* Release */,
+				6B60DBD01FB706ED00A2F133 /* Debug */,
+				6B60DBD11FB706ED00A2F133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
