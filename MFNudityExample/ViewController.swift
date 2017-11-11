@@ -20,9 +20,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let image = UIImage(named:"burkha.jpg")
-        resultImage.image = image
-        
+       
+        setDidLoadData()
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,9 +29,24 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        
+        super.viewWillAppear(true)
+    }
+    
+    func setDidLoadData()
+    {
+        let image = UIImage(named:"burkha.jpg")
+        resultImage.image = image
+    }
+    
     
     @IBAction func resultAction(_ sender: Any) {
+        
+        
         //Test burkha image
+        
+        
         MFNudity.shared.checkImageNudity(image: resultImage.image!) { (error, confidence) in
             
             if error != nil
@@ -43,7 +57,12 @@ class ViewController: UIViewController {
 
         }
         
+        
+        
         // To Test more nudity image uncomment below code and comment above code
+        
+        
+        
         
         
         
