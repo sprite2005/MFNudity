@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func resultAction(_ sender: Any) {
-        //Test 
+        //Test burkha image
         MFNudity.shared.checkImageNudity(image: resultImage.image!) { (error, confidence) in
             
             if error != nil
@@ -42,6 +42,24 @@ class ViewController: UIViewController {
             }
 
         }
+        
+        // To Test more nudity image uncomment below code and comment above code
+        
+        
+        
+    /*
+         let image = UIImage(named:"model")
+         MFNudity.shared.checkImageNudity(image: resultImage.image!) { (error, confidence) in
+            
+            if error != nil
+            {
+                let converted = String(format: "%.2f", confidence!)
+                resultLbl.text = "NSFW - \(converted) %"
+            }
+            
+        }
+ */
+        
         
         
     }
