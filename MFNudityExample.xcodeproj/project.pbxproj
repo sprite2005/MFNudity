@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B60DBCA1FB706ED00A2F133 /* MFNudity.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B60DBC81FB706ED00A2F133 /* MFNudity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B60DBCD1FB706ED00A2F133 /* MFNudity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B60DBC61FB706ED00A2F133 /* MFNudity.framework */; };
 		6B60DBCE1FB706ED00A2F133 /* MFNudity.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B60DBC61FB706ED00A2F133 /* MFNudity.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6B60DBD51FB706FA00A2F133 /* MFNudity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B60DBD21FB706F800A2F133 /* MFNudity.swift */; };
@@ -46,7 +45,6 @@
 
 /* Begin PBXFileReference section */
 		6B60DBC61FB706ED00A2F133 /* MFNudity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MFNudity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B60DBC81FB706ED00A2F133 /* MFNudity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFNudity.h; sourceTree = "<group>"; };
 		6B60DBC91FB706ED00A2F133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B60DBD21FB706F800A2F133 /* MFNudity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFNudity.swift; sourceTree = "<group>"; };
 		6B60DBD31FB706F800A2F133 /* MFNudityImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFNudityImage.swift; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 				6B60DBD21FB706F800A2F133 /* MFNudity.swift */,
 				6B60DBD31FB706F800A2F133 /* MFNudityImage.swift */,
 				6B60DBD41FB706FA00A2F133 /* Nudity.mlmodel */,
-				6B60DBC81FB706ED00A2F133 /* MFNudity.h */,
 				6B60DBC91FB706ED00A2F133 /* Info.plist */,
 			);
 			path = MFNudity;
@@ -129,7 +126,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B60DBCA1FB706ED00A2F133 /* MFNudity.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

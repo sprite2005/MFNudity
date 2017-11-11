@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'MFNudity'
-    s.version          = '1.0'
+    s.version          = '1.0.1'
     s.summary          = 'Check image nudity'
     s.license          = 'MIT'
     s.author           = {'Jigar Thakkar' => 'jigarthakkar4444@gmail.com', 'Arpan Desai' => 'arpan@mobilefirst.in'}
