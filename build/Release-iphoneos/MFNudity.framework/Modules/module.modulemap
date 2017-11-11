@@ -1,0 +1,11 @@
+framework module MFNudity {
+  umbrella header "MFNudity.h"
+
+  export *
+  module * { export * }
+}
+
+module MFNudity.Swift {
+    header "MFNudity-Swift.h"
+    requires objc
+}

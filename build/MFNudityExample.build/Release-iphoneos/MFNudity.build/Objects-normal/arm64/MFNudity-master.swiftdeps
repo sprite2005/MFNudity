@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "8368c5d6e7727c18d8a79d874764e08b"
+build_time: [1510229128, 24859000]
+inputs:
+  "/Users/mobilefirst/Desktop/MFNudityExample/MFNudity/MFNudity.swift": [9223372036, 854775807]
+  "/Users/mobilefirst/Desktop/MFNudityExample/MFNudity/MFNudityImage.swift": [9223372036, 854775807]
+  "/Users/mobilefirst/Desktop/MFNudityExample/build/MFNudityExample.build/Release-iphoneos/MFNudity.build/DerivedSources/CoreMLGenerated/Nudity/Nudity.swift": [9223372036, 854775807]

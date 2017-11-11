@@ -1,0 +1,10 @@
+framework module MFNudity {
+  umbrella header "MFNudity.h"
+
+  export *
+  module * { export * }
+}
+
+module MFNudity.__Swift {
+    exclude header "MFNudity-Swift.h"
+}

@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/mobilefirst/Desktop/MFNudityExample/build/Release-iphoneos/MFNudity.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MFNudity-Swift.h",
+          'external-contents': "/Users/mobilefirst/Desktop/MFNudityExample/build/Release-iphoneos/MFNudity.framework/Headers/MFNudity-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MFNudity.h",
+          'external-contents': "/Users/mobilefirst/Desktop/MFNudityExample/MFNudity/MFNudity.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mobilefirst/Desktop/MFNudityExample/build/Release-iphoneos/MFNudity.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mobilefirst/Desktop/MFNudityExample/build/MFNudityExample.build/Release-iphoneos/MFNudity.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

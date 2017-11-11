@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "005c2c77d3cc64b1e7adde529efccf53"
+build_time: [1510229186, 22887000]
+inputs:
+  "/Users/mobilefirst/Desktop/MFNudityExample/MFNudityExample/ViewController.swift": [9223372036, 854775807]
+  "/Users/mobilefirst/Desktop/MFNudityExample/MFNudityExample/AppDelegate.swift": [9223372036, 854775807]
