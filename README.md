@@ -17,4 +17,20 @@ pod 'MFNudity'
 
 First Step  - `@import MFNudity` to your project
 
+Second Step - Pass image to MFNudity's shared object
+
+```
+ MFNudity.shared.checkImageNudity(image: resultImage.image!) { (error, confidence) in
+            
+            if error != nil
+            {
+                let converted = String(format: "%.2f", confidence!)
+                resultLbl.text = "NSFW - \(converted) %"
+            }
+
+     }
+
+```
+
+This 'confidence' shows float value from 0 to 1 . You can simply convert it into % and show image's nudity in percentage . For higher 'confidence' value it will be nude picture.
 
