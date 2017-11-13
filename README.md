@@ -20,7 +20,7 @@ First Step  - `@import MFNudity` to your project
 Second Step - Pass image to MFNudity's shared object
 
 ```
- MFNudity.shared.checkImageNudity(image: resultImage.image!) { (error, confidence) in
+ MFNudity.shared.checkImageNudity(image: imageView.image!) { (error, confidence) in
             
             if error != nil
             {
@@ -33,4 +33,28 @@ Second Step - Pass image to MFNudity's shared object
 ```
 
 This 'confidence' shows float value from 0 to 1 . You can simply convert it into % and show image's nudity in percentage . For higher 'confidence' value it will be nude picture.
+
+
+## CocoaPods Install
+
+Add this to your Podfile.
+
+```
+pod 'MFNudity'
+```
+
+
+## Collaboration
+Feel free to collaborate with ideas, issues and/or pull requests.
+
+
+## Contact
+
+* Arpan & Jigar (http://mobilefirst.in)
+* Twitter: [@mobilefirstinc](http://twitter.com/mobilefirstinc)
+* Email : [arpan at mobilefirst.in](mailto:arpan@mobilefirst.in)
+
+## License
+
+MFNudity is released under the [MIT License](http://www.opensource.org/licenses/MIT).
 
