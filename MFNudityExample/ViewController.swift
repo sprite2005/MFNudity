@@ -37,6 +37,7 @@ class ViewController: UIViewController {
     func setDidLoadData()
     {
         let image = UIImage(named:"burkha.jpg")
+        
         resultImage.image = image
     }
     
